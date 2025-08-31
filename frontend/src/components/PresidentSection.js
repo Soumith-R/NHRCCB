@@ -67,9 +67,9 @@ const PresidentSection = () => {
           <div className="gallery-section">
             <h3>MONTHLY REPORT</h3>
             <div className="report-links">
-              <a href="#" className="pdf-link">VIEW PDF</a>
-              <a href="#" className="pdf-link">VIEW PDF</a>
-              <a href="#" className="pdf-link">VIEW PDF</a>
+              <a href="/reports/monthly-report-2024-01.pdf" className="pdf-link">VIEW PDF</a>
+              <a href="/reports/monthly-report-2023-12.pdf" className="pdf-link">VIEW PDF</a>
+              <a href="/reports/monthly-report-2023-11.pdf" className="pdf-link">VIEW PDF</a>
             </div>
             <a href="/monthly-report" className="view-all-btn">VIEW ALL</a>
           </div>
