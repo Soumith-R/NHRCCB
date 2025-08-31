@@ -1,0 +1,159 @@
+.footer {
+  background: #1a472a;
+  color: white;
+}
+
+.footer-main {
+  padding: 50px 0 30px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr 1fr;
+  gap: 40px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #28a745;
+}
+
+.footer-section p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: rgba(255,255,255,0.9);
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: #28a745;
+  color: white;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.social-links a:hover {
+  background: #218838;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: rgba(255,255,255,0.9);
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #28a745;
+}
+
+.contact-info h4 {
+  color: #28a745;
+  font-size: 16px;
+  margin: 20px 0 10px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.working-hours {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.working-hours li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  background: #0f2f1a;
+  padding: 20px 0;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.footer-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 12px;
+  color: rgba(255,255,255,0.8);
+}
+
+.footer-bottom a {
+  color: #28a745;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+.footer-social {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background: #28a745;
+  color: white;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.footer-social a:hover {
+  background: #218838;
+}
+
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .footer-bottom-content {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  
+  .working-hours li {
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,54 @@
+.about-section {
+  padding: 60px 0;
+  background: white;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  color: #1a472a;
+  margin-bottom: 30px;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #555;
+  text-align: justify;
+}
+
+.about-iso {
+  text-align: center;
+}
+
+.iso-logo {
+  max-width: 150px;
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  background: white;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .about-text h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .about-text p {
+    font-size: 15px;
+  }
+}

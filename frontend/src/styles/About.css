@@ -1,0 +1,139 @@
+.about-page {
+  padding: 40px 0;
+  min-height: 80vh;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 30px 0;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  color: #1a472a;
+  margin: 0;
+}
+
+.about-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-intro h2 {
+  font-size: 2rem;
+  color: #1a472a;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.about-intro p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #555;
+  text-align: justify;
+}
+
+.mission-vision {
+  margin: 50px 0;
+}
+
+.mission-vision-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.mission, .vision {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  border-left: 4px solid #1a472a;
+}
+
+.mission h3, .vision h3 {
+  font-size: 1.5rem;
+  color: #1a472a;
+  margin-bottom: 15px;
+}
+
+.mission p, .vision p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #555;
+}
+
+.our-work h2 {
+  font-size: 2rem;
+  color: #1a472a;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.work-areas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.work-area {
+  text-align: center;
+  padding: 30px 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.work-area:hover {
+  transform: translateY(-5px);
+}
+
+.work-area i {
+  font-size: 3rem;
+  color: #1a472a;
+  margin-bottom: 20px;
+}
+
+.work-area h4 {
+  font-size: 1.2rem;
+  color: #1a472a;
+  margin-bottom: 15px;
+}
+
+.work-area p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .page-header h1 {
+    font-size: 2rem;
+  }
+  
+  .about-intro h2 {
+    font-size: 1.5rem;
+  }
+  
+  .mission-vision-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .mission, .vision {
+    padding: 20px;
+  }
+  
+  .our-work h2 {
+    font-size: 1.5rem;
+  }
+  
+  .work-areas {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
